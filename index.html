@@ -1,48 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <!-- Replace the text between the tags with your own information! -->
-  
-  <!-- The <head> section contains the meta-information about your website, including title and links to stylesheets. -->
-  <head>
-    <title>Name Here</title>
-    
-    <!-- Bootstrap CSS CDN – provides free CSS! (The container, header, and footer sections are all provided by Bootstrap.) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-    <!-- This links to our CSS file, which adds styling to the website. -->
-    <link rel="stylesheet" type="text/css" href="main.css">
-    
-    <!-- Font Awesome CDN – for icons for email and social media links. -->
-    <script src="https://use.fontawesome.com/44cb379512.js"></script>
-
-    <!-- Ignore the next few lines – they're just for Bootstrap. -->
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  
-  <!-- The body contains the content of the website. -->
-  
-  <body>
-    
-    <!-- A div contains a "section" of the website. -->
-    <div class="container-fluid">
-      <div class="header">
-        <!-- h1 and h2 are header tags (meaning larger text, with h1 > h2). -->
-        <h1></h1>
-	<h2></h2>
-      </div>
-    </div>
-    
-
-    <!--You can ignore this stuff down here.-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Keynote</title>
+        <meta name="viewport" content="initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="assets/player/styles.css">
+    </head>
+    <body id="body" bgcolor="black">
+        <div id="stageArea">
+            <div id="stage" class="stage">
+            </div>
+            <div id="hyperlinkPlane" class="stage">
+            </div>
+        </div>
+        <div id="slideshowNavigator">
+        </div>
+        <div id="slideNumberControl">
+        </div>
+        <div id="slideNumberDisplay">
+        </div>
+        <div id="helpPlacard">
+        </div>
+        <div id="waitingIndicator">
+            <div id="waitingSpinner">
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/player/pdfjs/bcmaps.js"></script></body>
+        <script type="text/javascript" src="assets/player/pdfjs/web/compatibility.js"></script></body>
+        <script type="text/javascript" src="assets/player/pdfjs/pdf.js"></script></body>
+        <script type="text/javascript" src="assets/player/main.js"></script></body>
+    </body>
 </html>
